@@ -1,16 +1,11 @@
-import java.util.Scanner;
-
 import javax.swing.JOptionPane;
 public class ex03 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner sc= new Scanner(System.in);
+		String nombre=JOptionPane.showInputDialog("Escribe tu nombre");
 		
-		System.out.print("Escribe tu nombre: ");
-		String name = sc.nextLine();
-		
-		JOptionPane.showMessageDialog(null, name);
+		JOptionPane.showMessageDialog(null,"Tu nombre es: " +nombre);
 	}
 
 }
